@@ -15,4 +15,5 @@ hari ini, kamis 09 oktober 2025, saya mempelajari :
 <li>membuat styling untuk selector ID section#contact</li>
 <li>membuat styling untuk selector ID section#contact groups selector</li>
 <li>membuat styling untuk selector ID section#contact groups selector h2</li>
+<li>membuat styling untuk selector ID section#contact upgrade struktur form</li>
 </ol>
