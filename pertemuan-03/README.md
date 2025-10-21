@@ -23,4 +23,5 @@ hari ini, kamis 09 oktober 2025, saya mempelajari :
 <li>membuat styling untuk selector ID section#contact styling warna tombol</li>
 <li>membuat styling untuk selector ID section#contact styling hover tombol</li>
 <li>membuat styling untuk selector ID section#contact styling label dan label>span</li>
+<li>membuat styling untuk selector ID section#contact styling input, textarea, button</li>
 </ol>
