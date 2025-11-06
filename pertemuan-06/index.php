@@ -1,114 +1,93 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judul Halaman</title>
-  <style>
-    
-#about,
-#contact {
-background-color: #ffffff;
-border-radius: 10px;
-padding: 20px;
-max-width: 700px;
-margin: 20px auto;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-#about h2,
-#contact h2 {
-color: #003366;
-border-bottom: 2px solid #003366;
-padding-bottom: 6px;
-margin-top: 0;
-margin-bottom: 16px;
-}
-
-#about p,
-#contact label {
-display: flex;
-justify-content: flex-start;
-align-items: baseline;
-margin: 0;
-padding: 6px 0;
-border-bottom: 1px solid #e6e6e6;
-}
-
-#about strong,
-#contact label>span {
-min-width: 180px;
-color: #003366;
-font-weight: 600;
-text-align: right;
-padding-right: 16px;
-flex-shrink: 0;
-}
-
-#contact input,
-#contact textarea {
-flex: 1;
-border: 1px solid #ccc;
-border-radius: 6px;
-padding: 8px;
-color: #000;
-font-weight: normal;
-margin: 0;
-box-sizing: border-box;
-}
-
-
-
-
-
-
-#about strong,
-#contact label>span {
-text-align: left;
-padding-right: 0;
-margin-bottom: 2px;
-}
-#contact input,
-#contact textarea,
-#contact button {
-width: 100%;
-}
-}
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Arief</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <h1>Ini Header</h1>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+            &#9776;
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#Contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Selamat datang</h2>
+            <p>Ini contoh paragraf HTML.</p>
+            <?php
+            echo "Hello, World!<br>";
+            echo "Nama saya Freni";
+            ?>
+        </section>
 
-<main>
-
-
-  <section id="about">
-    <?php
-    $nim = "2511500037";
-    $Nama_Lengkap = "Freni Musdhalifah &#128526;";
-    $Tempat_Lahir = "Way Kanan";
-    $Tanggal_Lahir = "19 Desember 2004";
-    $hobi = "Silat, Bulutangkis, Lari, dan Berpetualangan &#127926;";
-    $Pasangan = "Ariel Brillian Samudra &#128525;";
-    $Pekerjaan = "Mahasiswa &copy;";
-    $Nama_orang_tua ="Ipran Zalzala & Yesi Hani";
-    $Nama_kakak = "-";
-    $Nama_adik = "Ahmad Hafidz Ikhwan & Ahmad Hafidz Baldan";
-    ?>
-    <h2>  &#128526;TENTANG SAYA &#128526; </h2>
-          <p><strong>NIM:</strong><?php echo "$nim";?></p> 
-          <P><strong>Nama Lengkap:</strong><?php echo "$Nama_Lengkap";?></P>
-          <P><strong>Tempat lahir:</strong><?php echo "$Tempat_Lahir";?></P>
-          <P><strong>Tanggal lahir:</strong><?php echo "$Tanggal_Lahir";?></P>
-          <p><strong>Hobi:</strong><?php echo "$hobi";?></p> 
-          <P><strong>Pasangan:</strong><?php echo " $Pasangan";?></P>
-          <P><strong>Pekerjaan:</strong><?php echo " $Pekerjaan";?></P> 
-          <P><strong>Nama orang tua:</strong><?php echo "$Nama_orang_tua";?></P> 
-          <P><strong>Nama kakak:</strong><?php echo "$Nama_kakak";?></P>
-          <P><strong>Nama adik:</strong><?php echo "$Nama_adik";?></p>
- 
-
-    <?php
+        <section id="about">
+            <?php
+                $NIM = "2511500037";
+                $Nama_Lengkap = "Freni Musdhalifah &#128526;";
+                $Tempat_Lahir = "Way Kanan";
+                $Tanggal_Lahir = "19 Desember 2004";
+                $hobi = "Silat, Bulutangkis, Lari, dan Berpetualangan &#127926;";
+                $Pasangan = "Ariel Brillian Samudra &#128525;";
+                $Pekerjaan = "Mahasiswa &copy;";
+                $Nama_orang_tua ="Ipran Zalzala & Yesi Hani";
+                $Nama_kakak = "-";
+                $Nama_adik = "Ahmad Hafidz Ikhwan & Ahmad Hafidz Baldan";
+                ?>
+            <h2>Tentang Saya</h2>
+            <p>
+                <strong>NIM:</strong>
+                <?php echo $NIM; ?> 
+            </p>
+            <p>
+                <strong>Nama Lengkap:</strong>
+                <?php echo $Nama_Lengkap; ?>
+            </p>
+            <p>
+                <strong>Tempat Lahir:</strong>
+                <?php echo $Tempat_Lahir; ?>
+            </p>
+            <p>
+                <strong>Tanggal Lahir:</strong>
+                <?php echo $Tanggal_Lahir; ?>
+            </p>
+            <p>
+                <strong>Hobi:</strong>
+                <?php echo $Hobi; ?>
+            </p>
+            <p>
+                <strong>Pasangan:</strong>
+                <?php echo $Pasangan; ?>
+            </p>
+            <P>
+                <strong>Pekerjaan:</strong>
+                <?php echo $Pekerjaan; ?>
+            </P>
+            <p>
+                <strong>Nama Orang Tua</strong>
+                <?php echo $Nama_Orang_Tua; ?>
+            </p>
+            <p>
+                <strong>Nama Kakak:</strong>
+                <?php echo $Nama_Kakak; ?>
+            </p>
+            <p>
+                <strong>Nama Adik:</strong>
+                <?php echo $Nama_Adik; ?>
+            </p>
+        
+            <?php
 $namaMatkul1 = "Algoritma dan Struktur Data";
 $sksMatkul1 = 4;
 $nilaiHadir1 = 90;
@@ -124,18 +103,18 @@ $nilaiUTS2 = 60;
 $nilaiUAS2 = 80;
 
 $namaMatkul3 = "Bahasa Inggris"; 
-$sksMatkul3 = 4;
+$sksMatkul3 = 5;
 $nilaiHadir3 = 80;
-$nilaiTugas3 = 70;
-$nilaiUTS3 = 75;
-$nilaiUAS3 = 80;
+$nilaiTugas3 = 75;
+$nilaiUTS3 = 80;
+$nilaiUAS3 = 85;
 
 $namaMatkul4 = "Geografi";
-$sksMatkul4 = 7;
-$nilaiHadir4 = 85;
-$nilaiTugas4 = 75;
-$nilaiUTS4 = 80;
-$nilaiUAS4 = 85;
+$sksMatkul4 = 4;
+$nilaiHadir4 = 80;
+$nilaiTugas4 = 80;
+$nilaiUTS4 = 85;
+$nilaiUAS4 = 90;
 
 $namaMatkul5 = "Pemrograman Web Dasar";
 $sksMatkul5 = 3;
@@ -218,13 +197,11 @@ $totalSKS = $sksMatkul1 + $sksMatkul2 + $sksMatkul3 + $sksMatkul4 + $sksMatkul5;
 $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
 ?>
 
-    </style>
-</head>
-<body>
-    <h2><br>Nilai Saya</br></h2>
+    <h2>Nilai Saya</h2>
 
+    <div class="section" id="ipk">
         <div class="matkul">
-            <br>
+
             <div><span class="label">Nama Matakuliah ke-1 :</span> <span class="value"><?php echo $namaMatkul1; ?></span></div>
             <div><span class="label">SKS :</span> <span class="value"><?php echo $sksMatkul1; ?></span></div>
             <div><span class="label">Kehadiran :</span> <span class="value"><?php echo $nilaiHadir1; ?></span></div>
@@ -236,11 +213,11 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
             <div><span class="label">Angka Mutu :</span> <span class="value"><?php echo number_format($mutu1, 2); ?></span></div>
             <div><span class="label">Bobot :</span> <span class="value"><?php echo number_format($bobot1, 2); ?></span></div>
             <div><span class="label">Status :</span> <span class="value"><?php echo $status1; ?></span></div>
-</br>
+
         </div>
 
         <div class="matkul">
-             <br>
+
             <div><span class="label">Nama Matakuliah ke-2 :</span> <span class="value"><?php echo $namaMatkul2; ?></span></div>
             <div><span class="label">SKS :</span> <span class="value"><?php echo $sksMatkul2; ?></span></div>
             <div><span class="label">Kehadiran :</span> <span class="value"><?php echo $nilaiHadir2; ?></span></div>
@@ -252,11 +229,11 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
             <div><span class="label">Angka Mutu :</span> <span class="value"><?php echo number_format($mutu2, 2); ?></span></div>
             <div><span class="label">Bobot :</span> <span class="value"><?php echo number_format($bobot2, 2); ?></span></div>
             <div><span class="label">Status :</span> <span class="value"><?php echo $status2; ?></span></div>
-</br>
+
         </div>
 
         <div class="matkul">
-            <br>
+
             <div><span class="label">Nama Matakuliah ke-3 :</span> <span class="value"><?php echo $namaMatkul3; ?></span></div>
             <div><span class="label">SKS :</span> <span class="value"><?php echo $sksMatkul3; ?></span></div>
             <div><span class="label">Kehadiran :</span> <span class="value"><?php echo $nilaiHadir3; ?></span></div>
@@ -268,11 +245,11 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
             <div><span class="label">Angka Mutu :</span> <span class="value"><?php echo number_format($mutu3, 2); ?></span></div>
             <div><span class="label">Bobot :</span> <span class="value"><?php echo number_format($bobot3, 2); ?></span></div>
             <div><span class="label">Status :</span> <span class="value"><?php echo $status3; ?></span></div>
-</br>
+
         </div>
 
         <div class="matkul">
-            <br>
+
             <div><span class="label">Nama Matakuliah ke-4 :</span> <span class="value"><?php echo $namaMatkul4; ?></span></div>
             <div><span class="label">SKS :</span> <span class="value"><?php echo $sksMatkul4; ?></span></div>
             <div><span class="label">Kehadiran :</span> <span class="value"><?php echo $nilaiHadir4; ?></span></div>
@@ -284,11 +261,11 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
             <div><span class="label">Angka Mutu :</span> <span class="value"><?php echo number_format($mutu4, 2); ?></span></div>
             <div><span class="label">Bobot :</span> <span class="value"><?php echo number_format($bobot4, 2); ?></span></div>
             <div><span class="label">Status :</span> <span class="value"><?php echo $status4; ?></span></div>
-</br>
+
         </div>
 
         <div class="matkul">
-             <br>
+
             <div><span class="label">Nama Matakuliah ke-5 :</span> <span class="value"><?php echo $namaMatkul5; ?></span></div>
             <div><span class="label">SKS :</span> <span class="value"><?php echo $sksMatkul5; ?></span></div>
             <div><span class="label">Kehadiran :</span> <span class="value"><?php echo $nilaiHadir5; ?></span></div>
@@ -300,7 +277,7 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
             <div><span class="label">Angka Mutu :</span> <span class="value"><?php echo number_format($mutu5, 2); ?></span></div>
             <div><span class="label">Bobot :</span> <span class="value"><?php echo number_format($bobot5, 2); ?></span></div>
             <div><span class="label">Status :</span> <span class="value"><?php echo $status5; ?></span></div>
-</br>
+            
         </div>
     </div>
 
@@ -309,8 +286,35 @@ $IPK = $totalSKS > 0 ? $totalBobot / $totalSKS : 0;
         <div><span class="label">Total SKS :</span> <span class="value"><?php echo $totalSKS; ?></span></div>
         <div><span class="label">IPK :</span> <span class="value"><?php echo number_format($IPK, 2); ?></span></div>
     </div>
-
 </body>
-</html>
+        </section>
+        <section id="Contact">
+            <section id="contact">
+                <h2>Kontak Kami</h2>
+                <form action="" method="GET">
+                    <label for="txtNama"><span>Nama:</span>
+                        <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required
+                            autocomplete="name">
+                    </label>
+                    <label for="txtEmail"><span>Email:</span>
+                        <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required
+                            autocomplete="email">
+                    </label>
+                    <label for="txtPesan"><span>Pesan Anda:</span>
+                        <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..."
+                            required></textarea>
+                        <small id="charCount">0/200 karakter</small>
+                    </label>
+                    <button type="submit">Kirim</button>
+                    <button type="reset">Batal</button>
+                </form>
+            </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Freni Musdhalifah [2511500037]</p>
+    </footer>
 
-          
+    <script src="script.js"></script>
+</body>
+
+</html>
