@@ -7,3 +7,6 @@ Nama : Feni Musdhalifah<br>
 belajar sebagai berikut:
 <ol>
 <li>skrip php hello world</li>
+<li>variabel php section about</li>
+<li>kalkulasi nilai akhir, grade, IPK</li>
+</ol>
