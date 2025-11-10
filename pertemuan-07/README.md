@@ -7,4 +7,5 @@ Hari ini, Kamis 06 November 2025 kami belajar:<br>
 <ol>
     <li>download + extract bahan latihan pertemuan-07</li>
     <li>method dan action index.php</li>
+    <li>membuat file proses.php</li>
     </ol>

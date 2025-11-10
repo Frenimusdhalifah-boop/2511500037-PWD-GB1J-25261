@@ -36,9 +36,9 @@
     <section id="about">
       <?php
       $nim = 2511500010;
-      $NIM = '0344300002';
+      $NIM = '2511500037';
       $nama = "Say'yid Abdullah";
-      $Nama = 'Al\'kautar Benyamin';
+      $Nama = 'Freni Musdhalifah';
       ?>
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
@@ -51,14 +51,14 @@
         echo $Nama;
         ?> &#128526;
       </p>
-      <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
-      <p><strong>Tanggal Lahir:</strong> 1 Januari 2000</p>
-      <p><strong>Hobi:</strong> Memasak, coding, dan bermain musik &#127926;</p>
-      <p><strong>Pasangan:</strong> Belum ada &hearts;</p>
-      <p><strong>Pekerjaan:</strong> Dosen di ISB Atma Luhur &copy; 2025</p>
-      <p><strong>Nama Orang Tua:</strong> Bapak Setiawan dan Ibu Maria</p>
-      <p><strong>Nama Kakak:</strong> Antonius Setiawan</p>
-      <p><strong>Nama Adik:</strong> Christina Setiawan</p>
+      <p><strong>Tempat Lahir:</strong> Way Kanan</p>
+      <p><strong>Tanggal Lahir:</strong> 19 Desember 2004</p>
+      <p><strong>Hobi:</strong> Silat,Bulutangkis, Lari, dan Berpetualang &#127926;</p>
+      <p><strong>Pasangan:</strong> Ariel Brillian Samudra &#128525;</p>
+      <p><strong>Pekerjaan:</strong> Mahasiswa &copy; 2025</p>
+      <p><strong>Nama Orang Tua:</strong> Ipran Zalzala & Yesi Hani</p>
+      <p><strong>Nama Kakak:</strong> -</p>
+      <p><strong>Nama Adik:</strong> Ahmad Hafidz Ikhwan & Ahmad Hafidz Baldan</p>
     </section>
 
     <section id="contact">
