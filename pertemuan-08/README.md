@@ -13,6 +13,7 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>membuat form biodata mahasiswa unutuk input</li>
   <li>membuat section#about biodata mahasiswa</li>
   <li>mengaktifkan tombol kirim dan batal</li>
+  <li>memasukan method POST</li>
   <li>mengisi section#contact ke proses.php</li>
   <li>mengubah script.js</li>
   <li>mengubah e.target ke reset di file sript.js</li>
