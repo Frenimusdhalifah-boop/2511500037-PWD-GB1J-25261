@@ -12,5 +12,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>membuat form biodata mahasiswa unutuk input</li>
   <li>membuat section#about biodata mahasiswa</li>
   <li>mengaktifkan tombol kirim dan batal</li>
+  <li>mengisi section#contact ke proses.php</li>
 
 </ol>
