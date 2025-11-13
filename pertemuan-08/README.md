@@ -9,4 +9,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>download + extract bahan UTS</li>
   <li>membuat biodata sederhana mahasiswa diatas section#about</li>
+  <li>membuat form biodata mahasiswa unutuk input</li>
+  <li>mengaktifkan tombol kirim dan batal</li>
 </ol>
