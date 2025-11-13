@@ -1,12 +1,12 @@
 # pertemuan-08
 
-silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
-Hari ini, Rabu 12.NOV.2025, saya:<br>
-NIM: 0344300002<br>
-Nama: Yohanes Setiawan Japriadi<br>
-Kelompok: TI1A<br>
-<br>
+NIM : 2511500037<br>
+Nama : Freni Musdhalifah<br>
+Kelompok : GB1J<br><br>
+Hari ini, Rabu 12.NOV.2025, saya mengerjakan UTS:<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
+  <li>download + extract bahan UTS</li>
+  <li>membuat biodata sederhana mahasiswa diatas section#about</li>
 </ol>
