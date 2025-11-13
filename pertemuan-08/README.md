@@ -15,5 +15,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>mengaktifkan tombol kirim dan batal</li>
   <li>mengisi section#contact ke proses.php</li>
   <li>mengubah script.js</li>
-  <li></li>
+  <li>mengubah e.target ke reset di file sript.js</li>
 </ol>
