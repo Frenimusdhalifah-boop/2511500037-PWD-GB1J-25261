@@ -20,5 +20,5 @@ Hari ini, Kamis, 27 November 2025, saya mempelajari:
   <li>download + extrak bahan pratikum Pertemuan-10</li>
   <li>Modif baris kode (10-19) di proses.php menjadi bentuk array associative</li>
   <li>menyusun rapi form dalam satu array dan menggunakan session pada proses.php</li>
-  <li>menghapus baris 23-32, lalu diganti dengan baris kode</li>
+  <li>menghapus baris 23-32, lalu diganti dengan baris kode array biodata</li>
 </ol>
