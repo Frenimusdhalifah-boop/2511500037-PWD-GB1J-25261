@@ -17,6 +17,6 @@ Hari ini, Kamis, 27 November 2025, saya mempelajari:
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-  <li>download + extrak bahan pratikum Pertemuan-10 
+  <li>download + extrak bahan pratikum Pertemuan-10</li>
   <li>Modif baris kode (10-19) menjadi bentuk array associative</li>
 </ol>
