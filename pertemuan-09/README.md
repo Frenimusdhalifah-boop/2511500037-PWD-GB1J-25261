@@ -21,4 +21,6 @@ Hari ini, Kamis, 27 November 2025, saya mempelajari:
   <li>Modif baris kode (10-19) di proses.php menjadi bentuk array associative</li>
   <li>menyusun rapi form dalam satu array dan menggunakan session pada proses.php</li>
   <li>menghapus baris 23-32, lalu diganti dengan baris kode array biodata</li>
+  <li>hapus baris 19-67 dalam index.php, lalu ganti menggunakan kode fieldConfig</li>
+  <li>menambahkan kode looping pada section#about</li>
 </ol>
