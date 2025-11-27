@@ -1,3 +1,6 @@
+<?php
+    echo "freni sang juara"
+?>
 <?php 
     session_start();
     $sesnim = $_POST["txtNim"];
