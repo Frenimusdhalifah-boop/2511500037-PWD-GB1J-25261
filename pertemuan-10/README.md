@@ -6,4 +6,6 @@ Nama : Feni Musdhalifah<br>
 <br>
  <ol>
  <li>download file zip pertemuan-10</li>
+ <li>membuat file koneksi.php di pertemuan-10</li>
+ <li>membuat kode MySQL Improved pada koneksi.php</li>
  <ol>
