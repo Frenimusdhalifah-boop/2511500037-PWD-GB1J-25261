@@ -8,4 +8,5 @@ Nama : Feni Musdhalifah<br>
  <li>download file zip pertemuan-10</li>
  <li>membuat file koneksi.php di pertemuan-10</li>
  <li>membuat kode MySQL Improved pada koneksi.php</li>
+ <li>mengisi nama databse pada alamat phpmyadmin</li>
  <ol>
