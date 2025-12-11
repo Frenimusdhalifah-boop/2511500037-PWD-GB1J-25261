@@ -1,9 +1,9 @@
-# pertemuan-11
+# pertemuan-10
 
-hari ini kamis 04 Desember 2025, saya<br>
+hari ini kamis 11 Desember 2025, saya<br>
 NIM : 2511500037<br>
 Nama : Feni Musdhalifah<br>
 <br>
  <ol>
- <li>download file zip pertemuan-11</li>
+ <li>Update fungsi.php untuk helper redirect sederhana</li>
  <ol>
