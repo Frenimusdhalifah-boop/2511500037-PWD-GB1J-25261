@@ -9,4 +9,5 @@ Nama : Feni Musdhalifah<br>
  <li>membuat file koneksi.php di pertemuan-10</li>
  <li>membuat kode MySQL Improved pada koneksi.php</li>
  <li>mengisi nama databse pada alamat phpmyadmin</li>
+ <li>membuat isian perintah SQL untuk membuat tabel tbl_tamu</li>
  <ol>
