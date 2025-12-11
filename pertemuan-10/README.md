@@ -11,4 +11,5 @@ Nama : Feni Musdhalifah<br>
  <li>mengisi nama databse pada alamat phpmyadmin</li>
  <li>membuat isian perintah SQL untuk membuat tabel tbl_tamu</li>
  <li>mebuat file read.php</li>
+ <li>membuat duplikat file read.php, ubah nama duplikatnya menjadi read_inc.php</li>
  <ol>
