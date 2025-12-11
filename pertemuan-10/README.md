@@ -13,4 +13,6 @@ Nama : Feni Musdhalifah<br>
  <li>mebuat file read.php</li>
  <li>membuat duplikat file read.php, ubah nama duplikatnya menjadi read_inc.php</li>
  <li>modif kode pada read_inc.php</li>
+ <li>mengubah kode pada baris ke 146 pada file index.php untuk menampilkan data dari read_inc.php</li>
+ <li>Hapus baris 133-141 karena kalian sudah tidak membutuhkannya lagi karena sudah diambil alih oleh file read_inc.php</li>
  <ol>
