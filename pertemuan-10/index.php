@@ -143,8 +143,8 @@ require_once __DIR__ . '/fungsi.php';
       <br>
       <hr>
       <h2>Yang menghubungi kami</h2>
-      <?= tampilkanBiodata($fieldContact, $contact) ?>
-    </section>
+      <?php include 'read_inc.php'; ?>
+    </section> 
   </main>
 
   <footer>
