@@ -12,4 +12,5 @@ Nama : Feni Musdhalifah<br>
  <li>membuat isian perintah SQL untuk membuat tabel tbl_tamu</li>
  <li>mebuat file read.php</li>
  <li>membuat duplikat file read.php, ubah nama duplikatnya menjadi read_inc.php</li>
+ <li>modif kode pada read_inc.php</li>
  <ol>
