@@ -9,4 +9,5 @@ Nama : Feni Musdhalifah<br>
  <li>Tambah penangkap pesan sukses/gagal</li>
  <li>menampilkan flash message</li>
  <li>mengambil data $_POST, trim, htmlspecialchars</li>
+ <li>INSERT tbl_tamu dengan prepared statement mysqli dan simpan pesan sukses/gagal ke $_SESSION</li>
  <ol>
