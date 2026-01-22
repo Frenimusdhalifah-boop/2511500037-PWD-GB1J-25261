@@ -5,8 +5,8 @@ require_once __DIR__ . '/fungsi.php';
 
 #cek method form, hanya izinkan POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  $_SESSION['flash_error'] = 'Akses tidak valid.';
-  redirect_ke('index.php#about');
+  $_SESSION['flash_error_data'] = 'Akses tidak valid.';
+  redirect_ke('index.php#biodata');
 }
 
 #ambil dan bersihkan nilai dari form
@@ -72,7 +72,7 @@ kondisi di bawah ini hanya dikerjakan jika ada error,
 simpan nilai lama dan pesan error, lalu redirect (konsep PRG)
 */
 if (!empty($errors)) {
-  $_SESSION['old_biodata'] = [
+  $_SESSION['old_data'] = [
     'nim'       => $nim,
     'nama'      => $nama,
     'tempat'    => $tempat,
@@ -85,8 +85,8 @@ if (!empty($errors)) {
     'adik'      => $adik,
   ];
 
-  $_SESSION['flash_error'] = implode('<br>', $errors);
-  redirect_ke('index.php#about');
+  $_SESSION['flash_error_data'] = implode('<br>', $errors);
+  redirect_ke('index.php#biodata');
 }
 
 # Jika validasi lolos, simpan biodata ke session
@@ -105,9 +105,9 @@ $arrBiodata = [
 $_SESSION["biodata"] = $arrBiodata;
 
 # Kosongkan old value dan beri pesan sukses
-unset($_SESSION['old_biodata']);
-$_SESSION['flash_sukses'] = 'Biodata berhasil disimpan.';
+unset($_SESSION['old_data']);
+$_SESSION['flash_sukses_data'] = 'Biodata berhasil disimpan.';
 
 # Redirect kembali ke halaman about (pola PRG)
-redirect_ke('index.php#about');
+redirect_ke('index.php#biodata');
 ?>
